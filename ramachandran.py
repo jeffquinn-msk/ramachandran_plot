@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import argparse
 
+
 def get_args():
     parser = argparse.ArgumentParser(
         description="Plot ramachandran plot of a PDB file."
@@ -73,6 +74,6 @@ def main():
     args = get_args()
     plot_ramachandran(args.pdb, args.output)
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     main()
